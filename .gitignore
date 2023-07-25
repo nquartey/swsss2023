@@ -1,0 +1,5 @@
+filename.ext
+*.jpeg
+*.jpg
+*.png
+day_01/*.png
