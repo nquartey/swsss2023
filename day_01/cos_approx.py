@@ -15,7 +15,7 @@ def cos_approx(x, accuracy=10):
     """
     Put the definition here
     """
-    
+
     cosine = [(((-1)**n)/factorial(2*n))*(x**(2*n)) for n in range(accuracy)] 
     return sum(cosine)
 
